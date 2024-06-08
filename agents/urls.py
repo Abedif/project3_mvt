@@ -5,5 +5,5 @@ from .views import *
 app_name = 'agents'
 
 urlpatterns = [
-    path('' , agents_grid , name='agents_grid')
+    path('agents_grid' , agents_grid , name='agents_grid')
 ]
