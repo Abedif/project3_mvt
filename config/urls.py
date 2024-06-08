@@ -21,7 +21,10 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('' , include('root.urls'))
+    path('' , include('root.urls')) ,
+    path('agents-grid/' , include('agents.urls')) ,
+    path('blog-grid/' , include('blogs.urls')) ,
+    path('property-grid/' , include('property.urls')) 
 ]
 
 

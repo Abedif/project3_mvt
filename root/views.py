@@ -11,13 +11,5 @@ def about(request):
 def contact(request):
     return render(request , 'root/contact.html')
 
-def blogs (request):
-    return render(request , 'blogs/blog-grid.html')
-
-def property_grid(request):
-    return render(request , 'property/property-grid.html')
-
-def agents_grid(request):
-    return render(request , 'agents/agents-grid.html')
 
 # Create your views here.

@@ -5,5 +5,6 @@ from .views import *
 app_name = 'blogs'
 
 urlpatterns = [
-    path('blog-single' , blogs , name='blog_single')
+    path('' , blog , name='blog_grid') ,
+    path('blog-single/' , blog_detail , name='blog_single')
 ]
