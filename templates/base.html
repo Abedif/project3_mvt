@@ -164,10 +164,10 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item " href="{% url 'property:property-single' %}">Property Single</a>
-              <a class="dropdown-item " href="{% url 'blogs:blog_single' %}">Blog Single</a>
+              <a class="dropdown-item " href="{% url 'property:property-single' id=1 %}">Property Single</a>
+              <a class="dropdown-item " href="{% url 'blogs:blog_single' id=1 %}">Blog Single</a>
               <a class="dropdown-item " href="{% url 'agents:agents-grid' %}">Agents Grid</a>
-              <a class="dropdown-item " href="{% url 'agents:agent-single' %}">Agent Single</a>
+              <a class="dropdown-item " href="{% url 'agents:agent-single' id=1 %}">Agent Single</a>
             </div>
           </li>
           <li class="nav-item">
